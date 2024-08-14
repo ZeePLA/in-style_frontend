@@ -1,0 +1,140 @@
+/* Header Section */
+.Header-section {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.head-nav-bar {
+  display: flex;
+  justify-content: Left;
+  align-items: Center;
+  gap: 20px;
+  background-color: #84dbff;
+}
+
+.header-icon {
+  height: 32px;
+  width: auto;
+}
+
+/* Greeting Section */
+.greeting-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.greeting-icon {
+  height: 192px;
+  width: auto;
+}
+
+.greeting-text {
+  font-weight: bold;
+  font-size: 128px;
+  color: #324a5e;
+}
+
+/* Search Section */
+.search-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search-bar-container {
+  width: 85%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar-title-text {
+  font-size: 24px;
+  color: #324a5e;
+}
+
+.search-input-container {
+  position: relative;
+  width: 85%;
+}
+
+.search-input-container input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 25%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+/* Search Section : Button Styles */
+.button-search,
+.button-random {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-search {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button-search:hover {
+  background-color: #45a049;
+}
+
+.button-random {
+  background-color: #008cba;
+  color: white;
+}
+
+.button-random:hover {
+  background-color: #007bb5;
+}
+
+/* Footer Section */
+.footer-section {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff7058;
+  color: #324a5e;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.foot-nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icon {
+  height: 32px;
+  width: auto;
+}
